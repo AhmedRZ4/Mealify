@@ -1,0 +1,304 @@
+/* sm */
+@media screen and (min-width:640px) {
+    .sm-100 {
+        width: 100%;
+    }
+
+    .sm-50 {
+        width: 50%;
+    }
+
+    .sm-33 {
+        width: 33.333333%;
+    }
+
+    .sm-25 {
+        width: 25%;
+    }
+
+    .sm-20 {
+        width: 20%;
+    }
+
+    .sm-16 {
+        width: 16.6666%;
+    }
+}
+
+/* md */
+@media screen and (min-width:768px) {
+    .md-100 {
+        width: 100%;
+    }
+
+    .md-50 {
+        width: 50%;
+    }
+
+    .md-33 {
+        width: 33.333333%;
+    }
+
+    .md-25 {
+        width: 25%;
+    }
+
+    .md-20 {
+        width: 20%;
+    }
+
+    .md-16 {
+        width: 16.6666%;
+    }
+/* .chefs .imges{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5px;
+    box-sizing: border-box;
+} */
+    .inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .list i{
+        display: none;
+    }
+    .links{
+        display: block;
+    }
+    .links ul {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 30px;
+    }
+
+    .home,
+    .inner-2,
+    .img {
+        margin-top: 20px;
+    }
+
+    .gallary-images {
+        columns: 2;
+    }
+
+    .detiles-item {
+        width: calc(50% - 50px);
+
+    }
+    .footer .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .f-sec1 {
+        order: 1;
+        /* margin-left: 5px; */
+    }
+
+    .f-sec2 {
+        order: 3;
+
+    }
+
+    .f-sec3 {
+        order: 2;
+
+    }
+    .values{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+    .sec-2-input{
+width: 80%;
+    }
+    .sec-2-button{
+width: 20%;
+    }
+}
+
+/* lg */
+@media screen and (min-width:1024px) {
+    .lg-100 {
+        width: 100%;
+    }
+
+    .lg-50 {
+        width: 50%;
+    }
+
+    .lg-40 {
+        width: 40%;
+    }
+
+    .lg-33 {
+        width: 33.333333%;
+    }
+
+    .lg-25 {
+        width: 25%;
+    }
+
+    .lg-20 {
+        width: 20%;
+    }
+
+    .lg-16 {
+        width: 16.6666%;
+    }
+
+    .imges {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 30px;
+        justify-content: space-between;
+
+    }
+
+
+}
+
+/* xl */
+@media screen and (min-width:1280px) {
+    .xl-100 {
+        width: 100%;
+    }
+
+    .xl-50 {
+        width: 50%;
+    }
+
+    .xl-40 {
+        width: 40%;
+    }
+
+    .xl-33 {
+        width: 33.333333%;
+    }
+
+    .xl-25 {
+        width: 25%;
+    }
+
+    .xl-20 {
+        width: 20%;
+    }
+
+    .xl-16 {
+        width: 16.6666%;
+    }
+
+    .inner-2 {
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .inner-2 .containt {
+        text-align: left;
+    }
+
+    .gallary-images {
+        columns: 3;
+    }
+
+    .message .data {
+        display: flex;
+        gap: 20px;
+    }
+
+    .message .data input {
+        width: 50%;
+    }
+    .f-sec2 {
+        order: 1;
+    }
+    .footer .container {
+        flex-wrap: nowrap;
+        gap: 15px;
+    }
+}
+
+/* xxl */
+@media screen and (min-width:1540px) {
+    .xxl-100 {
+        width: 100%;
+    }
+
+    .xxl-50 {
+        width: 50%;
+    }
+
+    .xxl-33 {
+        width: 33.333333%;
+    }
+
+    .xxl-25 {
+        width: 25%;
+    }
+
+    .xxl-20 {
+        width: 20%;
+    }
+
+    .xxl-16 {
+        width: 16.6666%;
+    }
+}
+
+.inner-2 .img img:hover {
+    animation-name: shake;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
